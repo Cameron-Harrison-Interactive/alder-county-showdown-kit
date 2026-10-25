@@ -1,0 +1,72 @@
+Q01 [needle] 0
+Q02 [structure] 0
+Q03 [needle] 0
+Q04 [aggregation] 0
+Q05 [structure] 0
+Q06 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q07 [join] 0  -- components found: 0
+Q08 [needle] 0
+Q09 [needle] 0
+Q10 [needle] 1
+Q11 [needle] 0
+Q12 [needle] 0
+Q13 [needle] 0
+Q14 [join] 0  -- components found: 0
+Q15 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q16 [structure] 0
+Q17 [needle] 1
+Q18 [aggregation] 0
+Q19 [needle] 0
+Q20 [structure] 0
+Q21 [needle] 1
+Q22 [join] 0  -- components found: 0
+Q23 [join] 0  -- components found: 0
+Q24 [aggregation] 0
+Q25 [structure] 0
+Q26 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q27 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q28 [structure] 1
+Q29 [needle] 1
+Q30 [needle] 0
+Q31 [aggregation] 0
+Q32 [join] 0  -- components found: 0
+Q33 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q34 [join] 0  -- components found: 0
+Q35 [needle] 1
+Q36 [needle] 1
+Q37 [structure] 0
+Q38 [aggregation] 0
+Q39 [join] 0  -- components found: 0
+Q40 [aggregation] 0
+Q41 [needle] 1
+Q42 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q43 [join] 0  -- components found: 0
+Q44 [join] 0.5  -- one component fact only
+Q45 [needle] 0
+Q46 [needle] 1
+Q47 [needle] 0
+Q48 [join] 0.5  -- one component fact only
+Q49 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q50 [aggregation] 0
+Q51 [needle] 0
+Q52 [needle] 0
+Q53 [join] 0  -- components found: 0
+Q54 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q55 [needle] 1
+Q56 [needle] 0
+Q57 [aggregation] 0
+Q58 [join] 0  -- components found: 0
+Q59 [needle] 0
+Q60 [needle] 0
+
+== TOTALS ==
+needle: 9 / 25
+join: 1 / 12
+aggregation: 0 / 8
+structure: 1 / 7
+not_in_file: 0 / 8
+ALL: 11 / 60
+needles by depth band: {0: '2/5', 1: '1/5', 2: '1/5', 3: '4/5', 4: '1/5'}
+loose value recall (informational, strict-failed): 0
+evidence attached: 12/60 responses
+latency per question: mean 3.59s, max 15.14s over 60 timed

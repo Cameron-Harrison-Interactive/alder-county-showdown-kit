@@ -1,0 +1,993 @@
+{
+ "seed": 20261022,
+ "file_sha256": "73dc3e7361cdce636bf566bcef6bb153718bcea2f3e52264c4702ce821f8cbdc",
+ "total_chars": 3434572,
+ "est_tokens": 858643,
+ "token_method": "chars/4.0",
+ "agg_tables": [
+  {
+   "header": "Halvern & Moss - Quarterly Revenue, 1961 (dollars)",
+   "rows": [
+    [
+     "Q1",
+     "184210"
+    ],
+    [
+     "Q2",
+     "201455"
+    ],
+    [
+     "Q3",
+     "176980"
+    ],
+    [
+     "Q4",
+     "229340"
+    ]
+   ],
+   "answer": "791985",
+   "unit": "dollars",
+   "char_offset": 1036416,
+   "token_percentile": 30.18,
+   "depth_band": 1
+  },
+  {
+   "header": "Alder County - Monthly Rainfall, 1959 (inches)",
+   "rows": [
+    [
+     "January",
+     "2.60"
+    ],
+    [
+     "February",
+     "3.58"
+    ],
+    [
+     "March",
+     "4.60"
+    ],
+    [
+     "April",
+     "4.26"
+    ],
+    [
+     "May",
+     "4.56"
+    ],
+    [
+     "June",
+     "5.14"
+    ],
+    [
+     "July",
+     "3.35"
+    ],
+    [
+     "August",
+     "5.08"
+    ],
+    [
+     "September",
+     "1.75"
+    ],
+    [
+     "October",
+     "5.35"
+    ],
+    [
+     "November",
+     "3.88"
+    ],
+    [
+     "December",
+     "1.43"
+    ]
+   ],
+   "answer": "45.58",
+   "unit": "inches",
+   "char_offset": 1549122,
+   "token_percentile": 45.1,
+   "depth_band": 2
+  },
+  {
+   "header": "Halvern & Moss - Employees by Department, 1963",
+   "rows": [
+    [
+     "Foundry",
+     "212"
+    ],
+    [
+     "Machine shop",
+     "168"
+    ],
+    [
+     "Pattern shop",
+     "47"
+    ],
+    [
+     "Office",
+     "39"
+    ],
+    [
+     "Yard and transport",
+     "86"
+    ],
+    [
+     "Night watch",
+     "12"
+    ]
+   ],
+   "answer": "564",
+   "unit": "people",
+   "char_offset": 1888913,
+   "token_percentile": 55.0,
+   "depth_band": 2
+  },
+  {
+   "header": "Halvern & Moss - Model 7 Pump Production, January-June 1970 (units)",
+   "rows": [
+    [
+     "January",
+     "8567"
+    ],
+    [
+     "February",
+     "12335"
+    ],
+    [
+     "March",
+     "8314"
+    ],
+    [
+     "April",
+     "11364"
+    ],
+    [
+     "May",
+     "12410"
+    ],
+    [
+     "June",
+     "10500"
+    ]
+   ],
+   "answer": "63490",
+   "unit": "units",
+   "char_offset": 2407175,
+   "token_percentile": 70.09,
+   "depth_band": 3
+  },
+  {
+   "header": "Alder County - Livestock Census, 1957",
+   "rows": [
+    [
+     "Cattle",
+     "4210"
+    ],
+    [
+     "Sheep",
+     "8930"
+    ],
+    [
+     "Pigs",
+     "1875"
+    ],
+    [
+     "Horses",
+     "640"
+    ],
+    [
+     "Poultry",
+     "15220"
+    ]
+   ],
+   "answer": "30875",
+   "unit": "animals",
+   "char_offset": 692184,
+   "token_percentile": 20.15,
+   "depth_band": 1
+  },
+  {
+   "header": "Alder County Library - Holdings by Category, 1965 (volumes)",
+   "rows": [
+    [
+     "Fiction",
+     "12480"
+    ],
+    [
+     "Reference",
+     "3915"
+    ],
+    [
+     "Children's",
+     "5240"
+    ],
+    [
+     "Periodicals",
+     "1180"
+    ],
+    [
+     "Maps and atlases",
+     "365"
+    ]
+   ],
+   "answer": "23180",
+   "unit": "volumes",
+   "char_offset": 2753531,
+   "token_percentile": 80.17,
+   "depth_band": 4
+  },
+  {
+   "header": "Alder County - Monthly Snowfall, 1966 (inches)",
+   "rows": [
+    [
+     "January",
+     "4.7"
+    ],
+    [
+     "February",
+     "5.1"
+    ],
+    [
+     "March",
+     "3.7"
+    ],
+    [
+     "April",
+     "2.2"
+    ],
+    [
+     "May",
+     "10.8"
+    ],
+    [
+     "June",
+     "7.0"
+    ],
+    [
+     "July",
+     "6.6"
+    ],
+    [
+     "August",
+     "9.8"
+    ],
+    [
+     "September",
+     "7.4"
+    ],
+    [
+     "October",
+     "8.0"
+    ],
+    [
+     "November",
+     "10.2"
+    ],
+    [
+     "December",
+     "3.1"
+    ]
+   ],
+   "answer": "7",
+   "unit": "months",
+   "char_offset": 3028122,
+   "token_percentile": 88.17,
+   "depth_band": 4
+  },
+  {
+   "header": "Alder County - School Enrolment, 1968 (pupils)",
+   "rows": [
+    [
+     "Mossbridge Central",
+     "612"
+    ],
+    [
+     "East Rill",
+     "238"
+    ],
+    [
+     "Port Sanger",
+     "301"
+    ],
+    [
+     "Kettner Junction",
+     "187"
+    ]
+   ],
+   "answer": "1338",
+   "unit": "pupils",
+   "char_offset": 3165395,
+   "token_percentile": 92.16,
+   "depth_band": 4
+  }
+ ],
+ "facts": [
+  {
+   "kind": "needle",
+   "entity": "the Halvern & Moss expansion loan of 1958",
+   "attribute": "recorded amount",
+   "value": "722,768.46",
+   "unit": "dollars",
+   "sentence": "The Halvern & Moss expansion loan of 1958 was recorded at 722,768.46 dollars, countersigned by the county clerk before witnesses.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 3,
+   "char_offset": 103988,
+   "token_percentile": 3.03,
+   "depth_band": 0,
+   "sentence_sha": "55668ae15ca9fae6"
+  },
+  {
+   "kind": "needle",
+   "entity": "the Calloway bequest to the Alder County library fund",
+   "attribute": "recorded amount",
+   "value": "617,426.37",
+   "unit": "dollars",
+   "sentence": "The Calloway bequest to the Alder County library fund was settled at 617,426.37 dollars after probate.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 7,
+   "char_offset": 241600,
+   "token_percentile": 7.03,
+   "depth_band": 0,
+   "sentence_sha": "bef5626c68c48a2b"
+  },
+  {
+   "kind": "needle",
+   "entity": "the Port Sanger bridge construction contract",
+   "attribute": "recorded amount",
+   "value": "905,361.23",
+   "unit": "dollars",
+   "sentence": "The Port Sanger bridge construction contract was let for 905,361.23 dollars to a single bidder.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 11,
+   "char_offset": 379078,
+   "token_percentile": 11.04,
+   "depth_band": 0,
+   "sentence_sha": "632d844526bb3c63"
+  },
+  {
+   "kind": "needle",
+   "entity": "the 1963 county fair champion marrow prize fund",
+   "attribute": "recorded amount",
+   "value": "60,872.31",
+   "unit": "dollars",
+   "sentence": "The 1963 county fair champion marrow prize fund held 60,872.31 dollars at the close of entries.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 15,
+   "char_offset": 516721,
+   "token_percentile": 15.04,
+   "depth_band": 0,
+   "sentence_sha": "a30a678ab0f3bf8f"
+  },
+  {
+   "kind": "needle",
+   "entity": "the Fenner warehouse fire insurance settlement",
+   "attribute": "recorded amount",
+   "value": "251,641.31",
+   "unit": "dollars",
+   "sentence": "The Fenner warehouse fire insurance settlement was paid at 251,641.31 dollars in full and final discharge.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 18,
+   "char_offset": 620149,
+   "token_percentile": 18.06,
+   "depth_band": 0,
+   "sentence_sha": "00610f36d403596c"
+  },
+  {
+   "kind": "needle",
+   "entity": "the East Rill schoolhouse land purchase",
+   "attribute": "recorded amount",
+   "value": "13,067.92",
+   "unit": "dollars",
+   "sentence": "The East Rill schoolhouse land purchase was completed for 13,067.92 dollars, deed recorded the same week.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 23,
+   "char_offset": 791668,
+   "token_percentile": 23.05,
+   "depth_band": 1,
+   "sentence_sha": "fdf8ee9b90bd3f05"
+  },
+  {
+   "kind": "needle",
+   "entity": "the Mossbridge waterworks bond issue of 1960",
+   "attribute": "recorded amount",
+   "value": "875,599.70",
+   "unit": "dollars",
+   "sentence": "The Mossbridge waterworks bond issue of 1960 raised 875,599.70 dollars against future rates.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 27,
+   "char_offset": 928999,
+   "token_percentile": 27.05,
+   "depth_band": 1,
+   "sentence_sha": "aabbb34d5857e599"
+  },
+  {
+   "kind": "needle",
+   "entity": "the Thurlow grain elevator damages award",
+   "attribute": "recorded amount",
+   "value": "148,066.08",
+   "unit": "dollars",
+   "sentence": "The Thurlow grain elevator damages award was assessed at 148,066.08 dollars by the circuit court.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 31,
+   "char_offset": 1066320,
+   "token_percentile": 31.05,
+   "depth_band": 1,
+   "sentence_sha": "5f817a8088a9f808"
+  },
+  {
+   "kind": "needle",
+   "entity": "the works number of the Model 7 pump installed at North Fenner",
+   "attribute": "code",
+   "value": "HM-36063",
+   "unit": "",
+   "sentence": "The Model 7 pump installed at North Fenner carries works number HM-36063, stamped on the maker's plate.",
+   "section": "Part III - Registries",
+   "target_pct": 35,
+   "char_offset": 1203354,
+   "token_percentile": 35.04,
+   "depth_band": 1,
+   "sentence_sha": "c56970a7533429cc"
+  },
+  {
+   "kind": "needle",
+   "entity": "the running number of the county's Baldwin locomotive",
+   "attribute": "code",
+   "value": "BL-35349",
+   "unit": "",
+   "sentence": "The county's Baldwin locomotive runs under number BL-35349 in the railway register.",
+   "section": "Part III - Registries",
+   "target_pct": 38,
+   "char_offset": 1310785,
+   "token_percentile": 38.16,
+   "depth_band": 1,
+   "sentence_sha": "54254fc8bde56bb2"
+  },
+  {
+   "kind": "needle",
+   "entity": "the archive code of the 1955 flood survey box",
+   "attribute": "code",
+   "value": "AB-50440",
+   "unit": "",
+   "sentence": "The 1955 flood survey box is held in the county archive under code AB-50440.",
+   "section": "Part III - Registries",
+   "target_pct": 43,
+   "char_offset": 1477615,
+   "token_percentile": 43.02,
+   "depth_band": 2,
+   "sentence_sha": "71efd83ba2c77ce3"
+  },
+  {
+   "kind": "needle",
+   "entity": "the inspection code of the Kettner Junction footbridge",
+   "attribute": "code",
+   "value": "IN-93772",
+   "unit": "",
+   "sentence": "The Kettner Junction footbridge bears inspection code IN-93772 on its eastern parapet.",
+   "section": "Part III - Registries",
+   "target_pct": 47,
+   "char_offset": 1614905,
+   "token_percentile": 47.02,
+   "depth_band": 2,
+   "sentence_sha": "b751c4dfc04108df"
+  },
+  {
+   "kind": "needle",
+   "entity": "the call sign of the county wireless station",
+   "attribute": "code",
+   "value": "KAL-96201",
+   "unit": "",
+   "sentence": "The county wireless station transmits under call sign KAL-96201 as listed in the 1962 directory.",
+   "section": "Part III - Registries",
+   "target_pct": 51,
+   "char_offset": 1751943,
+   "token_percentile": 51.01,
+   "depth_band": 2,
+   "sentence_sha": "9d95a067a8e095ba"
+  },
+  {
+   "kind": "needle",
+   "entity": "the safe deposit register code for the Dunmore bank vault",
+   "attribute": "code",
+   "value": "SD-91659",
+   "unit": "",
+   "sentence": "The Dunmore bank vault is entered in the safe deposit register under code SD-91659.",
+   "section": "Part III - Registries",
+   "target_pct": 55,
+   "char_offset": 1888825,
+   "token_percentile": 54.99,
+   "depth_band": 2,
+   "sentence_sha": "081179e344f6d1ca"
+  },
+  {
+   "kind": "needle",
+   "entity": "Wendell A. Pruitt, county surveyor",
+   "attribute": "date",
+   "value": "7 December 1941",
+   "unit": "",
+   "sentence": "Wendell A. Pruitt took office as county surveyor on 7 December 1941, succeeding his father in the post.",
+   "section": "Part I - County Almanac",
+   "target_pct": 58,
+   "char_offset": 1996485,
+   "token_percentile": 58.13,
+   "depth_band": 2,
+   "sentence_sha": "6a6d1d36badba4d0"
+  },
+  {
+   "kind": "needle",
+   "entity": "Cordelia Brandt, registrar of deeds",
+   "attribute": "date",
+   "value": "17 March 1962",
+   "unit": "",
+   "sentence": "Cordelia Brandt was sworn in as registrar of deeds on 17 March 1962 at the courthouse in Mossbridge.",
+   "section": "Part I - County Almanac",
+   "target_pct": 63,
+   "char_offset": 2168396,
+   "token_percentile": 63.13,
+   "depth_band": 3,
+   "sentence_sha": "4008df1bd89eb036"
+  },
+  {
+   "kind": "needle",
+   "entity": "the Alder County courthouse cornerstone",
+   "attribute": "date",
+   "value": "19 April 1941",
+   "unit": "",
+   "sentence": "The cornerstone of the Alder County courthouse was laid on 19 April 1941 before a crowd of four hundred.",
+   "section": "Part I - County Almanac",
+   "target_pct": 67,
+   "char_offset": 2305702,
+   "token_percentile": 67.13,
+   "depth_band": 3,
+   "sentence_sha": "ec65d516856671d4"
+  },
+  {
+   "kind": "needle",
+   "entity": "the first sitting of the Alder County circuit court",
+   "attribute": "date",
+   "value": "19 January 1952",
+   "unit": "",
+   "sentence": "The first sitting of the Alder County circuit court opened on 19 January 1952 with Judge Halloway presiding.",
+   "section": "Part I - County Almanac",
+   "target_pct": 71,
+   "char_offset": 2443078,
+   "token_percentile": 71.13,
+   "depth_band": 3,
+   "sentence_sha": "7f18289f596dcea9"
+  },
+  {
+   "kind": "needle",
+   "entity": "Tobias Rill, ferry master at Dunmore Landing",
+   "attribute": "date",
+   "value": "5 June 1941",
+   "unit": "",
+   "sentence": "Tobias Rill began his duties as ferry master at Dunmore Landing on 5 June 1941, a post he held for thirty years.",
+   "section": "Part I - County Almanac",
+   "target_pct": 75,
+   "char_offset": 2580317,
+   "token_percentile": 75.13,
+   "depth_band": 3,
+   "sentence_sha": "1ffd0fbca7c4d570"
+  },
+  {
+   "kind": "needle",
+   "entity": "the Halvern & Moss foundry",
+   "attribute": "date",
+   "value": "16 June 1956",
+   "unit": "",
+   "sentence": "The Halvern & Moss foundry was formally incorporated on 16 June 1956 with nine shareholders.",
+   "section": "Part I - County Almanac",
+   "target_pct": 78,
+   "char_offset": 2681742,
+   "token_percentile": 78.08,
+   "depth_band": 3,
+   "sentence_sha": "273739e41e899a68"
+  },
+  {
+   "kind": "needle",
+   "entity": "the span of the Port Sanger bridge",
+   "attribute": "measurement",
+   "value": "236.25",
+   "unit": "feet",
+   "sentence": "The Port Sanger bridge measures 236.25 feet from abutment to abutment.",
+   "section": "Part I - County Almanac",
+   "target_pct": 83,
+   "char_offset": 2854937,
+   "token_percentile": 83.12,
+   "depth_band": 4,
+   "sentence_sha": "9832d7b796757c4a"
+  },
+  {
+   "kind": "needle",
+   "entity": "the depth of the Kettner artesian well",
+   "attribute": "measurement",
+   "value": "423.25",
+   "unit": "feet",
+   "sentence": "The Kettner artesian well was drilled to a depth of 423.25 feet before striking the lower aquifer.",
+   "section": "Part I - County Almanac",
+   "target_pct": 87,
+   "char_offset": 2992172,
+   "token_percentile": 87.12,
+   "depth_band": 4,
+   "sentence_sha": "471717e8f043dff6"
+  },
+  {
+   "kind": "needle",
+   "entity": "the height of the Mossbridge wireless tower",
+   "attribute": "measurement",
+   "value": "1056.25",
+   "unit": "feet",
+   "sentence": "The Mossbridge wireless tower stands 1056.25 feet above the courthouse square.",
+   "section": "Part I - County Almanac",
+   "target_pct": 91,
+   "char_offset": 3129547,
+   "token_percentile": 91.12,
+   "depth_band": 4,
+   "sentence_sha": "26997da1c37e9ab3"
+  },
+  {
+   "kind": "needle",
+   "entity": "the length of the East Rill canal cut",
+   "attribute": "measurement",
+   "value": "12.85",
+   "unit": "miles",
+   "sentence": "The East Rill canal cut runs 12.85 miles from the lock gate to the mill pond.",
+   "section": "Part I - County Almanac",
+   "target_pct": 95,
+   "char_offset": 3266773,
+   "token_percentile": 95.11,
+   "depth_band": 4,
+   "sentence_sha": "00c669a0b182bee6"
+  },
+  {
+   "kind": "needle",
+   "entity": "the capacity of the Thurlow reservoir",
+   "attribute": "measurement",
+   "value": "529.75",
+   "unit": "million gallons",
+   "sentence": "The Thurlow reservoir holds 529.75 million gallons at the spillway mark.",
+   "section": "Part I - County Almanac",
+   "target_pct": 98,
+   "char_offset": 3368114,
+   "token_percentile": 98.07,
+   "depth_band": 4,
+   "sentence_sha": "ccae75d59d3750a4"
+  },
+  {
+   "kind": "join_component",
+   "entity": "Tomas Wrenlow",
+   "attribute": "birth date",
+   "value": "18 April 1951",
+   "unit": "",
+   "sentence": "Tomas Wrenlow was born on 18 April 1951 in Mossbridge, the third child of a mill family.",
+   "section": "Part I - County Almanac",
+   "target_pct": 4,
+   "char_offset": 139972,
+   "token_percentile": 4.08,
+   "depth_band": 0,
+   "sentence_sha": "def1c1340306334f"
+  },
+  {
+   "kind": "join_component",
+   "entity": "Tomas Wrenlow",
+   "attribute": "honour year",
+   "value": "1980",
+   "unit": "",
+   "sentence": "Tomas Wrenlow received the county service medal in September 1980 at a ceremony in Mossbridge.",
+   "section": "Part III - Registries",
+   "target_pct": 62,
+   "char_offset": 2132561,
+   "token_percentile": 62.09,
+   "depth_band": 3,
+   "sentence_sha": "b813c39a5e40b2dc"
+  },
+  {
+   "kind": "join_component",
+   "entity": "Agnes Kettner",
+   "attribute": "birth date",
+   "value": "7 April 1938",
+   "unit": "",
+   "sentence": "Agnes Kettner was born on 7 April 1938 in Alder Falls, the third child of a mill family.",
+   "section": "Part I - County Almanac",
+   "target_pct": 10,
+   "char_offset": 349157,
+   "token_percentile": 10.17,
+   "depth_band": 0,
+   "sentence_sha": "ea1cc69ce23c1346"
+  },
+  {
+   "kind": "join_component",
+   "entity": "Agnes Kettner",
+   "attribute": "honour year",
+   "value": "1970",
+   "unit": "",
+   "sentence": "Agnes Kettner received the long-service certificate in September 1970 at a ceremony in Mossbridge.",
+   "section": "Part III - Registries",
+   "target_pct": 69,
+   "char_offset": 2371326,
+   "token_percentile": 69.04,
+   "depth_band": 3,
+   "sentence_sha": "425a2fb623100f03"
+  },
+  {
+   "kind": "join_component",
+   "entity": "Bartholomew Osgood",
+   "attribute": "birth date",
+   "value": "4 April 1948",
+   "unit": "",
+   "sentence": "Bartholomew Osgood was born on 4 April 1948 in Kettner Junction, the third child of a mill family.",
+   "section": "Part I - County Almanac",
+   "target_pct": 16,
+   "char_offset": 552623,
+   "token_percentile": 16.09,
+   "depth_band": 0,
+   "sentence_sha": "ed98cd336edf4b4a"
+  },
+  {
+   "kind": "join_component",
+   "entity": "Bartholomew Osgood",
+   "attribute": "honour year",
+   "value": "1980",
+   "unit": "",
+   "sentence": "Bartholomew Osgood received the mayoral chain of office in September 1980 at a ceremony in Mossbridge.",
+   "section": "Part III - Registries",
+   "target_pct": 76,
+   "char_offset": 2610220,
+   "token_percentile": 76.0,
+   "depth_band": 3,
+   "sentence_sha": "6c1398e6ddb0e0ee"
+  },
+  {
+   "kind": "join_component",
+   "entity": "Selina Yardley",
+   "attribute": "birth date",
+   "value": "24 April 1949",
+   "unit": "",
+   "sentence": "Selina Yardley was born on 24 April 1949 in East Rill, the third child of a mill family.",
+   "section": "Part I - County Almanac",
+   "target_pct": 22,
+   "char_offset": 761766,
+   "token_percentile": 22.18,
+   "depth_band": 1,
+   "sentence_sha": "6b1a7df5a37d7a26"
+  },
+  {
+   "kind": "join_component",
+   "entity": "Selina Yardley",
+   "attribute": "honour year",
+   "value": "1969",
+   "unit": "",
+   "sentence": "Selina Yardley received the teaching jubilee medal in September 1969 at a ceremony in Mossbridge.",
+   "section": "Part III - Registries",
+   "target_pct": 83,
+   "char_offset": 2855012,
+   "token_percentile": 83.13,
+   "depth_band": 4,
+   "sentence_sha": "6f7c4145df03f2a0"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Wexler's Crossing road contract",
+   "attribute": "original estimate",
+   "value": "86,168.50",
+   "unit": "dollars",
+   "sentence": "The original estimate for the Wexler's Crossing road contract was 86,168.50 dollars, as tendered in the council minutes.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 6,
+   "char_offset": 211647,
+   "token_percentile": 6.16,
+   "depth_band": 0,
+   "sentence_sha": "d691a2a54ccc67e7"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Wexler's Crossing road contract",
+   "attribute": "final cost",
+   "value": "121,765.76",
+   "unit": "dollars",
+   "sentence": "The final cost of the Wexler's Crossing road contract was settled at 121,765.76 dollars on completion.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 64,
+   "char_offset": 2198284,
+   "token_percentile": 64.0,
+   "depth_band": 3,
+   "sentence_sha": "e1214af7ae12657a"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the North Fenner drainage scheme",
+   "attribute": "original estimate",
+   "value": "50,335.10",
+   "unit": "dollars",
+   "sentence": "The original estimate for the North Fenner drainage scheme was 50,335.10 dollars, as tendered in the council minutes.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 12,
+   "char_offset": 414932,
+   "token_percentile": 12.08,
+   "depth_band": 0,
+   "sentence_sha": "fe088e2e2194b9c9"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the North Fenner drainage scheme",
+   "attribute": "final cost",
+   "value": "75,640.22",
+   "unit": "dollars",
+   "sentence": "The final cost of the North Fenner drainage scheme was settled at 75,640.22 dollars on completion.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 71,
+   "char_offset": 2443191,
+   "token_percentile": 71.14,
+   "depth_band": 3,
+   "sentence_sha": "a11afe6e25dcdb8e"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Alder Falls market hall",
+   "attribute": "original estimate",
+   "value": "175,991.65",
+   "unit": "dollars",
+   "sentence": "The original estimate for the Alder Falls market hall was 175,991.65 dollars, as tendered in the council minutes.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 18,
+   "char_offset": 620260,
+   "token_percentile": 18.06,
+   "depth_band": 0,
+   "sentence_sha": "1b6d12fa8f2a9c12"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Alder Falls market hall",
+   "attribute": "final cost",
+   "value": "189,549.65",
+   "unit": "dollars",
+   "sentence": "The final cost of the Alder Falls market hall was settled at 189,549.65 dollars on completion.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 78,
+   "char_offset": 2681839,
+   "token_percentile": 78.08,
+   "depth_band": 3,
+   "sentence_sha": "6de2347f0d44c382"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Port Sanger harbour wall",
+   "attribute": "original estimate",
+   "value": "72,825.10",
+   "unit": "dollars",
+   "sentence": "The original estimate for the Port Sanger harbour wall was 72,825.10 dollars, as tendered in the council minutes.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 24,
+   "char_offset": 827545,
+   "token_percentile": 24.09,
+   "depth_band": 1,
+   "sentence_sha": "7dc936241a87100a"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Port Sanger harbour wall",
+   "attribute": "final cost",
+   "value": "99,362.38",
+   "unit": "dollars",
+   "sentence": "The final cost of the Port Sanger harbour wall was settled at 99,362.38 dollars on completion.",
+   "section": "Part II - Company and County Records",
+   "target_pct": 85,
+   "char_offset": 2920612,
+   "token_percentile": 85.04,
+   "depth_band": 4,
+   "sentence_sha": "1a083fbf7f3630ed"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Mill Race footpath",
+   "attribute": "eastern section length",
+   "value": "682.5",
+   "unit": "feet",
+   "sentence": "The eastern section of the Mill Race footpath measures 682.5 feet from the stile to the mid-gate.",
+   "section": "Part I - County Almanac",
+   "target_pct": 8,
+   "char_offset": 277493,
+   "token_percentile": 8.08,
+   "depth_band": 0,
+   "sentence_sha": "2baaecfcd8880414"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Mill Race footpath",
+   "attribute": "western section length",
+   "value": "591.5",
+   "unit": "feet",
+   "sentence": "The western section of the Mill Race footpath measures 591.5 feet from the mid-gate to the parish boundary.",
+   "section": "Part I - County Almanac",
+   "target_pct": 66,
+   "char_offset": 2269857,
+   "token_percentile": 66.09,
+   "depth_band": 3,
+   "sentence_sha": "898afe16bf359420"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Canal Towpath",
+   "attribute": "eastern section length",
+   "value": "856.25",
+   "unit": "feet",
+   "sentence": "The eastern section of the Canal Towpath measures 856.25 feet from the stile to the mid-gate.",
+   "section": "Part I - County Almanac",
+   "target_pct": 14,
+   "char_offset": 486760,
+   "token_percentile": 14.17,
+   "depth_band": 0,
+   "sentence_sha": "3880becd40724c58"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Canal Towpath",
+   "attribute": "western section length",
+   "value": "474.5",
+   "unit": "feet",
+   "sentence": "The western section of the Canal Towpath measures 474.5 feet from the mid-gate to the parish boundary.",
+   "section": "Part I - County Almanac",
+   "target_pct": 73,
+   "char_offset": 2508799,
+   "token_percentile": 73.05,
+   "depth_band": 3,
+   "sentence_sha": "ccd920246d758fef"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Ridgeway bridle path",
+   "attribute": "eastern section length",
+   "value": "889.5",
+   "unit": "feet",
+   "sentence": "The eastern section of the Ridgeway bridle path measures 889.5 feet from the stile to the mid-gate.",
+   "section": "Part I - County Almanac",
+   "target_pct": 20,
+   "char_offset": 692080,
+   "token_percentile": 20.15,
+   "depth_band": 1,
+   "sentence_sha": "8567a8b6a97c56ce"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Ridgeway bridle path",
+   "attribute": "western section length",
+   "value": "105.75",
+   "unit": "feet",
+   "sentence": "The western section of the Ridgeway bridle path measures 105.75 feet from the mid-gate to the parish boundary.",
+   "section": "Part I - County Almanac",
+   "target_pct": 80,
+   "char_offset": 2753416,
+   "token_percentile": 80.17,
+   "depth_band": 4,
+   "sentence_sha": "fb36c26743122d03"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Fenner Marsh boardwalk",
+   "attribute": "eastern section length",
+   "value": "137.25",
+   "unit": "feet",
+   "sentence": "The eastern section of the Fenner Marsh boardwalk measures 137.25 feet from the stile to the mid-gate.",
+   "section": "Part I - County Almanac",
+   "target_pct": 26,
+   "char_offset": 899082,
+   "token_percentile": 26.18,
+   "depth_band": 1,
+   "sentence_sha": "8760963dbb3ba4cd"
+  },
+  {
+   "kind": "join_component",
+   "entity": "the Fenner Marsh boardwalk",
+   "attribute": "western section length",
+   "value": "129.5",
+   "unit": "feet",
+   "sentence": "The western section of the Fenner Marsh boardwalk measures 129.5 feet from the mid-gate to the parish boundary.",
+   "section": "Part I - County Almanac",
+   "target_pct": 87,
+   "char_offset": 2992275,
+   "token_percentile": 87.12,
+   "depth_band": 4,
+   "sentence_sha": "73024f47b40a7f89"
+  }
+ ]
+}

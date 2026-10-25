@@ -1,0 +1,70 @@
+Q01 [needle] 1
+Q02 [structure] 0  -- loose value present, strict form failed
+Q03 [needle] 1
+Q04 [aggregation] 0  -- loose value present, strict form failed
+Q05 [structure] 0  -- loose value present, strict form failed
+Q06 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q07 [join] 0  -- components found: 0
+Q08 [needle] 1
+Q09 [needle] 0  -- loose value present, strict form failed
+Q10 [needle] 1
+Q11 [needle] 1
+Q12 [needle] 1
+Q13 [needle] 1
+Q14 [join] 0  -- components found: 0
+Q15 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q16 [structure] 0  -- loose value present, strict form failed
+Q17 [needle] 1
+Q18 [aggregation] 0  -- loose value present, strict form failed
+Q19 [needle] 1
+Q20 [structure] 1
+Q21 [needle] 1
+Q22 [join] 0  -- components found: 0
+Q23 [join] 0  -- components found: 0
+Q24 [aggregation] 0  -- loose value present, strict form failed
+Q25 [structure] 1
+Q26 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q27 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q28 [structure] 1
+Q29 [needle] 1
+Q30 [needle] 0  -- loose value present, strict form failed
+Q31 [aggregation] 0
+Q32 [join] 0  -- components found: 0
+Q33 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q34 [join] 0  -- components found: 0
+Q35 [needle] 1
+Q36 [needle] 0  -- loose value present, strict form failed
+Q37 [structure] 0  -- loose value present, strict form failed
+Q38 [aggregation] 0  -- loose value present, strict form failed
+Q39 [join] 0  -- components found: 0
+Q40 [aggregation] 0  -- loose value present, strict form failed
+Q41 [needle] 1
+Q42 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q43 [join] 0  -- components found: 0
+Q44 [join] 0  -- components found: 0
+Q45 [needle] 0  -- loose value present, strict form failed
+Q46 [needle] 0  -- loose value present, strict form failed
+Q47 [needle] 1
+Q48 [join] 0  -- components found: 0
+Q49 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q50 [aggregation] 0  -- loose value present, strict form failed
+Q51 [needle] 1
+Q52 [needle] 0  -- loose value present, strict form failed
+Q53 [join] 0  -- components found: 0
+Q54 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q55 [needle] 0  -- loose value present, strict form failed
+Q56 [needle] 0  -- loose value present, strict form failed
+Q57 [aggregation] 0  -- loose value present, strict form failed
+Q58 [join] 0  -- components found: 0
+Q59 [needle] 1
+Q60 [needle] 1
+
+== TOTALS ==
+needle: 17 / 25
+join: 0 / 12
+aggregation: 0 / 8
+structure: 3 / 7
+not_in_file: 0 / 8
+ALL: 20 / 60
+needles by depth band: {0: '0/5', 1: '2/5', 2: '5/5', 3: '5/5', 4: '5/5'}
+loose value recall (informational, strict-failed): 19

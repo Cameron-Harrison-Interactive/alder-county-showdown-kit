@@ -1,0 +1,72 @@
+Q01 [needle] 1
+Q02 [structure] 1
+Q03 [needle] 1
+Q04 [aggregation] 1
+Q05 [structure] 1
+Q06 [not_in_file] 1
+Q07 [join] 1
+Q08 [needle] 1
+Q09 [needle] 1
+Q10 [needle] 1
+Q11 [needle] 1
+Q12 [needle] 1
+Q13 [needle] 1
+Q14 [join] 1
+Q15 [not_in_file] 1
+Q16 [structure] 1
+Q17 [needle] 1
+Q18 [aggregation] 1
+Q19 [needle] 1
+Q20 [structure] 1
+Q21 [needle] 1
+Q22 [join] 1
+Q23 [join] 1
+Q24 [aggregation] 1
+Q25 [structure] 1
+Q26 [not_in_file] 1
+Q27 [not_in_file] 1
+Q28 [structure] 1
+Q29 [needle] 1
+Q30 [needle] 1
+Q31 [aggregation] 1
+Q32 [join] 1
+Q33 [not_in_file] 1
+Q34 [join] 1
+Q35 [needle] 1
+Q36 [needle] 1
+Q37 [structure] 1
+Q38 [aggregation] 1
+Q39 [join] 1
+Q40 [aggregation] 1
+Q41 [needle] 1
+Q42 [not_in_file] 1
+Q43 [join] 1
+Q44 [join] 1
+Q45 [needle] 1
+Q46 [needle] 1
+Q47 [needle] 1
+Q48 [join] 1
+Q49 [not_in_file] 1
+Q50 [aggregation] 1
+Q51 [needle] 1
+Q52 [needle] 1
+Q53 [join] 1
+Q54 [not_in_file] 1
+Q55 [needle] 1
+Q56 [needle] 1
+Q57 [aggregation] 1
+Q58 [join] 1
+Q59 [needle] 1
+Q60 [needle] 1
+
+== TOTALS ==
+needle: 25 / 25
+join: 12 / 12
+aggregation: 8 / 8
+structure: 7 / 7
+not_in_file: 8 / 8
+ALL: 60 / 60
+needles by depth band: {0: '5/5', 1: '5/5', 2: '5/5', 3: '5/5', 4: '5/5'}
+loose value recall (informational, strict-failed): 0
+evidence attached: 52/60 responses
+latency per question: mean 2.51s, max 15.01s over 60 timed
