@@ -24,6 +24,7 @@ The scorer prints the strict score by category, an informational loose-recall li
 | **Helena** — first run, 2026-10-25 | **11 / 60** | 12 of 60 | 3 min 35 s |
 | **Helena** — re-run after the named failure was fixed, 2026-10-25 | **60 / 60** | 52 of 60, plus the full-document check behind the 8 absence answers | 2 min 32 s |
 | **Helena** — confirmation runs on the finished build, 2026-10-25 | **60 / 60, twice more** | 52 of 60 each | — |
+| **Google Gemini 4 Argon** — Gemini web app, Thinking level High (the maximum), paid account, run by Cameron Harrison on 2026-10-25 | **7 / 60** | 0 of 60 | not separately recorded — see the run folder |
 
 Helena's perfect runs are perfect in every category: the buried facts at all five depths (5 of 5 in the deepest band), the joins 12 of 12, the sums 8 of 8, the structure questions 7 of 7, and the not-in-the-book questions 8 of 8. On every question in those runs, the whole document was checked — 33,134 of 33,134 sentences — and that coverage stands behind every absence answer. Helena ran entirely on a local machine: no account, no subscription, no per-question charge.
 
@@ -37,9 +38,11 @@ The scorer is strict with everyone, and its strictness is part of the record:
 - **Kimi's joins and units.** In all 12 join answers, Kimi's derived value matched the key exactly but arrived without its unit word, and scored 0 under the strict value-plus-unit rule. Nineteen further answers were value-exact without unit words — the scorer counts these on its informational loose-recall line (19). Exactly one Kimi answer was wrong outright.
 - **Helena's mirror footnote.** In her first run, Helena's 8 absence answers used her standard decline wording, which is likewise not in the frozen list, and scored 0 the same way. In the later runs her absence answers were stated in recognized form and scored 8 of 8.
 - **How the Kimi arm answered.** The filed run video shows the Kimi arm answering by executing code searches over the uploaded file rather than holding the book in front of it. A search returns a value stripped of its sentence — the shape of the answers received: bare values, no units, no evidence. The cropped run video is in `kimi-run-cameron-2026-10-23/`.
+- **Argon's absence answers.** All 8 of Argon's "not in the book" answers said *"Not in file"* — honest, and nothing was invented. That wording is not in the scorer's frozen list of absence phrases, so all 8 scored 0 — the same strictness recorded above for Kimi and for Helena's first run.
+- **How the Argon arm answered.** Argon's reading of the file stopped partway through it; 46 of its 60 answers carry its own explanation — *"the attached file is truncated at 1967-06-04"* — about the kit's complete, byte-identical file. Every needle it scored sits in the document's opening depth band (3 of 5); in the four deeper bands it scored 0 of 20. Its full record — scorecard, responses, scorer output, run video — is in `gemini-argon-run-cameron-2026-10-25/`.
 - The scorer was not adjusted after any run, for anyone. The strict scores above are the results. The disputes are these footnotes — listed, never re-scored.
 
-Full per-run records — every answer, every latency, every scorer output — are in `kimi-run-cameron-2026-10-23/`, `helena_run/`, `helena_run_s2/`, `helena_run_s3/`, and `helena_run_s4/`. The side-by-side scorecard from the first two runs is `head_to_head_context.md`; the later runs' detail sheets are in their folders.
+Full per-run records — every answer, every latency, every scorer output — are in `kimi-run-cameron-2026-10-23/`, `helena_run/`, `helena_run_s2/`, `helena_run_s3/`, `helena_run_s4/`, and `gemini-argon-run-cameron-2026-10-25/`. The side-by-side scorecard from the first two runs is `head_to_head_context.md`; the later runs' detail sheets are in their folders.
 
 Don't take our word for any of it. Run it.
 

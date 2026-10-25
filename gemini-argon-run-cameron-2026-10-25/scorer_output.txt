@@ -1,0 +1,70 @@
+Q01 [needle] 0
+Q02 [structure] 0
+Q03 [needle] 0
+Q04 [aggregation] 0
+Q05 [structure] 0  -- loose value present, strict form failed
+Q06 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q07 [join] 0  -- components found: 0
+Q08 [needle] 0
+Q09 [needle] 1
+Q10 [needle] 0
+Q11 [needle] 0
+Q12 [needle] 0
+Q13 [needle] 0
+Q14 [join] 0.5  -- one component fact only
+Q15 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q16 [structure] 0
+Q17 [needle] 0
+Q18 [aggregation] 0
+Q19 [needle] 0
+Q20 [structure] 1
+Q21 [needle] 0
+Q22 [join] 0  -- components found: 0
+Q23 [join] 0  -- components found: 0
+Q24 [aggregation] 0
+Q25 [structure] 0
+Q26 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q27 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q28 [structure] 1
+Q29 [needle] 0
+Q30 [needle] 1
+Q31 [aggregation] 0
+Q32 [join] 0.5  -- one component fact only
+Q33 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q34 [join] 0  -- components found: 0
+Q35 [needle] 0
+Q36 [needle] 0
+Q37 [structure] 0  -- loose value present, strict form failed
+Q38 [aggregation] 0  -- loose value present, strict form failed
+Q39 [join] 0  -- components found: 0
+Q40 [aggregation] 0
+Q41 [needle] 0
+Q42 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q43 [join] 0.5  -- one component fact only
+Q44 [join] 0  -- components found: 0
+Q45 [needle] 0
+Q46 [needle] 1
+Q47 [needle] 0
+Q48 [join] 0  -- components found: 0
+Q49 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q50 [aggregation] 0
+Q51 [needle] 0
+Q52 [needle] 0
+Q53 [join] 0  -- components found: 0
+Q54 [not_in_file] 0  -- INVENTED or evaded (no absence statement)
+Q55 [needle] 0
+Q56 [needle] 0
+Q57 [aggregation] 0
+Q58 [join] 0.5  -- one component fact only
+Q59 [needle] 0
+Q60 [needle] 0
+
+== TOTALS ==
+needle: 3 / 25
+join: 2 / 12
+aggregation: 0 / 8
+structure: 2 / 7
+not_in_file: 0 / 8
+ALL: 7 / 60
+needles by depth band: {0: '3/5', 1: '0/5', 2: '0/5', 3: '0/5', 4: '0/5'}
+loose value recall (informational, strict-failed): 3
